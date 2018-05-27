@@ -51,7 +51,15 @@
     padding-bottom: 1px;
 }
 
+.row-splitter{
+    height: 1px;
+    background-color: lightgray;
+}
 
+.section-splitter{
+    height: 2.5px;
+    background-color: lightgray;
+}
 
 /*
 .button {
