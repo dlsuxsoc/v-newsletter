@@ -1,0 +1,10 @@
+header{
+    text-align: center;
+    position: sticky;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background: RGB(86,204,242); /*This will be applied if gradient is not supported by browser*/
+    background: linear-gradient(to right, RGB(86,204,242),RGB(47,128,237));
+}
