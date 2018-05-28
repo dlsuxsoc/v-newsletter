@@ -44,15 +44,24 @@ p {
 }
 
 /* stylesheet for header, footer and sections */
+
+
 .header {
-    
+    width: 100%;
+    height: 600px;
+    background-image: url("../res/banner-bg.png");
+    background-repeat:  no-repeat;
+    background-size: 100% 100%;
 }
 
-.banner {
+.head-image {
+    width:100%;
+}
+
+.footer {    
     text-align: center;
     font-family: HUniN;
-    font-size: 22px;
-    position: sticky;
+    font-size: 12px;
     margin-top: 5px;
     padding: 5px 0px;
     color: white;
@@ -61,28 +70,30 @@ p {
 }
 
 .tile {
-    width: 1920px;
-    margin: 10px;
-    padding: 20px;
-    float: left;
+    width: 100%;
     background-color: gainsboro;
+}
+
+.tile-banner {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: HUniN;
+    font-size: 32px;
+    position: sticky;
+    margin-top: 10px;
+    padding: 5px 0px;
+    color: white;
+    background: RGB(86,204,242); /*This will be applied if gradient is not supported by browser*/
+    background: linear-gradient(to right, RGB(86,204,242),RGB(47,128,237));
+}
+
+.tile-header {
+    
 }
 
 #main-container {
     margin: 0 auto;
-}
-
-.header {
-    background-image: url("../res/banner-bg.png");
-}
-
-.footer {
-    text-align: center;
-    font-family: LUniN;
-    padding: 2px 50px;
-    color: white;
-    background: RGB(86,204,242); /*This will be applied if gradient is not supported by browser*/
-    background: linear-gradient(to right, RGB(86,204,242),RGB(47,128,237));
 }
 
 /* stylesheet for the button */
