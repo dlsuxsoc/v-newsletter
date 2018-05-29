@@ -75,6 +75,22 @@ hr { background-color: darkgray;
     color: white;
 }
 
+.calendar-month {
+    font-family: IUniS;
+    font-size: 65px;
+    color: rgb(243, 101, 38);
+    padding: 20px 50px 0px 50px;
+    float:inherit;
+}
+
+
+.calendar-desc {
+    font-family: HUniN;
+    font-size: 280%;
+    padding-top: 30px;
+    padding-left: 2em;
+}
+
 .center {
     display: block;
     margin-left: auto;
