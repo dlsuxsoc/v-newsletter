@@ -1,0 +1,40 @@
+@font-face{
+    src: url(../fonts/Uni-Sans-Heavy-Italic.otf);
+    font-family: IUniS;
+}
+
+@font-face{
+    src: url(../fonts/Uni-Sans-Heavy.otf);
+    font-family: IUniH;
+}
+
+@font-face{
+    src: url(../fonts/UniNeue-HeavyItalic.otf);
+    font-family: HUniN;
+}
+
+@font-face{
+    src: url(../fonts/UniNeue-Light.otf);
+    font-family: LUniN;
+}
+
+@font-face{
+    src: url(../fonts/UniNeue-Light.otf);
+    font-family: LUniN;
+}
+
+.Font-Neue-Light{
+    font-family: LUniN;
+}
+
+.Font-Uni-SansHI{
+    font-family: IUniS;
+}
+
+.Font-Uni-SansH{
+    font-family: IUniH;
+}
+
+.Font-Neue-HI{
+    font-family: HUniN;
+}

@@ -1,0 +1,48 @@
+/* stylesheet for the header */
+
+.logo-container{
+	border-radius: 100%;
+	background-color: var(--theme-white);
+	width: 200px;
+	height: 200px;
+	background-image: url('../assets/svg/asset-board_v-logo.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+	margin: 20px 0;
+}
+
+header h1{
+	font-size: 4.5em;
+}
+
+header h2{
+	font-family: LUniN;
+	font-size: 3em;
+}
+
+header h4{
+	font-family: LUniN;
+	font-size: 1.5em;
+	width: 70%;
+	text-align: center;
+}
+
+header .social-wrapper{
+	margin: 20px 0;
+}
+
+header .social-wrapper i.fa{
+	display: inline-block;
+	margin: 0 20px;
+	cursor: pointer;
+}
+
+
+/* section titles */
+section h2.section-title{
+	text-align: center;
+	padding: 20px 0;
+	margin-bottom: 50px;
+	font-size: 1.8em;
+}
