@@ -1,0 +1,22 @@
+.table-row-format{
+    position: relative;
+}
+
+.image-scale{
+    max-height: 20em;
+    min-height: 20em;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.image-logo{
+    border-radius: 100%;
+    top: 5%;
+    left: 419px;
+    height: 5em;
+    width: 5.5em;
+    position: absolute;
+}
