@@ -1,0 +1,96 @@
+/* stylesheet for article contents */
+#may-have-missed, #watching-on-repeat{
+	background-color: #f9f9f9;
+}
+
+#talk-to-the-town .content-feed .content-wrapper,
+#may-have-missed .content-feed .content-wrapper{
+	margin: 40px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#talk-to-the-town .content-feed .content-wrapper .content,
+#may-have-missed .content-feed .content-wrapper .content{
+	margin: 0 40px;
+}
+
+#talk-to-the-town .content-feed .content-wrapper .featured-image,
+#may-have-missed .content-feed .content-wrapper .featured-image{
+	min-width: 650px;
+	background-color: #eee;
+	border-radius: 5px;
+	height: 400px;
+}
+
+#talk-to-the-town .content-feed .content-wrapper .title,
+#may-have-missed .content-feed .content-wrapper .title{
+	font-size: 2em;
+}
+
+.content-wrapper .body{
+	margin: 1em 0;
+}
+
+/* calendar of events */
+#calendar-events{
+	margin: 0 auto;
+}
+
+#calendar-events tr{
+	margin: 9px 0;
+	display: block;
+}
+
+#calendar-events tr td{
+	padding: 20px 0;
+}
+
+#calendar-events tr td.month{
+	color: var(--theme-orange);
+	font-family: HUniN;
+	font-size: 3em;
+	border-right: thin solid #ccc;
+	padding: 0 30px;
+}
+
+#calendar-events tr td.event-title{
+	font-size: 1.6em;
+	padding: 0 20px;
+	width: 100%;
+}
+
+#calendar-events tr td img.icon{
+	width: 70px;
+}
+
+
+/* three column content */
+#watching-on-repeat .content-wrapper{
+	width: 32%;
+	box-shadow: 0px 0px 11px #dedede;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+#watching-on-repeat .content-wrapper button,
+#follow-us .content-wrapper button{
+	display: block;
+	margin: 0 auto;
+}
+
+#watching-on-repeat .content-wrapper .text-wrapper{
+	padding: 30px;
+}
+
+#watching-on-repeat .text-wrapper .title{
+	font-size: 1.3em;
+	font-weight: 900;
+	font-family: LUniN;
+}
+
+#watching-on-repeat .content-wrapper .featured-image{
+	height: 380px;
+	background-color: #ccc;
+}
