@@ -1,0 +1,12 @@
+.banner-format{
+    text-align: center;
+    font-size: 24px;
+    position: sticky;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background: RGB(86,204,242); /*This will be applied if gradient is not supported by browser*/
+    background: linear-gradient(to right, RGB(86,204,242),RGB(47,128,237));
+}
+

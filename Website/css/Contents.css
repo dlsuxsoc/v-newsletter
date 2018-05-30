@@ -1,0 +1,139 @@
+.cont-Container{
+    width: 100%;
+    height: 722px;
+    margin: 0 auto;
+}
+
+.img-left-container{
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+
+.img-size{
+    width: 100%;
+    height: 100%;
+}
+
+.content-desc{
+    padding-top: 12em;
+    margin: 70%
+    height: 700px;
+    width: 35%;
+    float: right;
+}
+
+/*3 containers format <div>*/
+.three-con{
+/*    padding: 5em 3em 5em 3em;*/
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 100.00%;
+    width: 30%;
+    float: left;
+}
+
+/*for three containers <div>*/
+.img-size-1{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.img-container-1{
+    height: 100%;
+    width: 100%;
+}
+
+.desc-container-1{
+    height: 157.2px;
+    width: 100%;
+}
+
+.img-cont-height{
+    height: 70%;
+}
+
+.desc-padding-1{
+    padding: 10px 35px 0px 35px;
+}
+
+.desc-margin{
+    margin: 0;
+}
+
+.font-size-2{
+    font-size: 24px;
+}
+
+.font-size-1{
+    font-size: 29px;
+}
+
+.views-text{
+    font-size: 24px;
+    color: rgb(188, 188, 188);
+    
+}
+
+
+
+.shadow-blur{
+    -webkit-box-shadow: -5px 3px 7px 0px #c6c6c6;
+-moz-box-shadow: -5px 3px 7px 0px #c6c6c6;
+box-shadow: -5px 3px 7px 0px #c6c6c6;
+}
+
+.shadow-blur-1{
+    -webkit-box-shadow: -9px 0px 5px 0px #ccc;
+    -moz-box-shadow: -9px 0px 5px 0px #ccc;
+    box-shadow: -9px 0px 5px 0px #ccc;
+}
+
+.text-location-right{
+    text-align: left;
+    padding-left: 25%;
+    float: left;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.text-location-left{
+    text-align: left;
+    float: left;
+    padding-left: 15%;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.btn-container-right{
+    float:left;
+    padding-left: 25%;
+}
+
+.btn-container-left{
+    float:left;
+    padding-left: 15%;
+}
+
+.btn-container-1{
+    height: 80px;
+    width: 100%;
+}
+
+.read-button{
+    background-color: rgb(243, 101, 38); /*Orange*/
+    border: none;
+    border-radius: 15%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.clear{
+    clear: both;
+}

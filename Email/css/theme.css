@@ -1,0 +1,31 @@
+/* theme stylesheet of the site */
+
+:root{
+	/* theme colors */
+}
+
+body, html{
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+}
+
+/* stylesheet for header, footer and sections */
+
+/* stylesheet for the button */
+
+/* stylesheet for article thumbnail */
