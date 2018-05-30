@@ -2,16 +2,23 @@
 
 :root{
 	/* theme colors */
+	--theme-light-blue: #56CCF2;
+	--theme-blue: #2F80ED;
+	--theme-grey: #9E9E9E;
+	--theme-white: #FFFFFF;
+	--theme-orange: #F36526;
 }
 
 body, html{
 	padding: 0;
 	margin: 0;
+	font-family: LUniN;
 }
 
 h1, h2, h3, h4, h5, h6{
 	padding: 0;
 	margin: 0;
+	font-family: IUniS;
 }
 
 a{
@@ -22,10 +29,41 @@ a{
 p{
 	padding: 0;
 	margin: 0;
+	color: #333;
+	font-weight: normal;
+	font-family: LUniN;
+	font-size: 1.3em;
+}
+
+hr{
+	border: none;
+	border-bottom: thin solid #eeee;
 }
 
 /* stylesheet for header, footer and sections */
+header, section, footer{
+	padding: 50px 8%;
+}
 
-/* stylesheet for the button */
+section{
+	padding: 70px 8%;
+}
 
-/* stylesheet for article thumbnail */
+header{
+	background-image: url('../assets/images/banner-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+	color: var(--theme-white);
+}
+
+footer{
+	padding: 50px 8%;
+	background-color: var(--theme-blue);
+}
+
+footer p{
+	text-align: center;
+	color: var(--theme-white);
+}
