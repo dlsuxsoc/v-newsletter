@@ -1,4 +1,10 @@
 /* stylesheet for article contents */
+.featured-image{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 #may-have-missed, #watching-on-repeat{
 	background-color: #f9f9f9;
 }
@@ -23,7 +29,7 @@
 
 #talk-to-the-town .content-feed .content-wrapper .featured-image,
 #may-have-missed .content-feed .content-wrapper .featured-image{
-	width: 650px;
+	width: 110%;
 	background-color: #eee;
 	border-radius: 5px;
 	height: 400px;
@@ -107,8 +113,8 @@
 
 #watching-on-repeat .content-wrapper .featured-image,
 #follow-us .content-wrapper .featured-image{
-	height: 32%;
 	background-color: #ccc;
+	height: 300px;
 }
 
 #watching-on-repeat .content-feed, #follow-us .content-feed{
