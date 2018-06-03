@@ -23,7 +23,7 @@
 
 #talk-to-the-town .content-feed .content-wrapper .featured-image,
 #may-have-missed .content-feed .content-wrapper .featured-image{
-	min-width: 650px;
+	width: 650px;
 	background-color: #eee;
 	border-radius: 5px;
 	height: 400px;

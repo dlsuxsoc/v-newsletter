@@ -1,0 +1,111 @@
+/* stylesheet for responsive web design */
+
+@media(max-width: 1143px){
+	header, section, footer{
+		padding: 60px 0;
+	}
+
+	header h1{
+		font-size: 2.5em;
+	}
+
+	header h2{
+		font-family: LUniN;
+		font-size: 2em;
+		text-align: center;
+	}
+
+	header h4{
+		font-family: LUniN;
+		font-size: 1.5em;
+		width: 90%;
+		margin: 1em 0;
+		text-align: center;
+	}
+
+	header .social-wrapper{
+		margin: 20px 0;
+	}
+
+	header .social-wrapper i.fa{
+		display: inline-block;
+		margin: 0 20px;
+		cursor: pointer;
+	}
+
+	section{
+		background-color: var(--theme-white) !important;
+		border-bottom: thin solid #eee;
+	}
+
+	section h2.section-title{
+		text-align: center;
+		padding: 20px 10px;
+		font-size: 1.9em;
+		color: var(--theme-blue);
+	}
+
+	.content-wrapper .featured-image{
+		width: 100% !important;
+		height: 300px;
+		border-radius: 0 !important;
+	}
+
+	#talk-to-the-town .content-feed .content-wrapper,
+	#may-have-missed .content-feed .content-wrapper{
+		flex-direction: column !important;
+		margin: 0;
+		margin-bottom: 2em;
+	}
+
+	#talk-to-the-town .content-feed .content-wrapper .title,
+	#may-have-missed .content-feed .content-wrapper .title{
+		font-size: 1.5em;
+	}
+
+	#talk-to-the-town .content-wrapper .content,
+	#may-have-missed .content-wrapper .content{
+		padding: 3em 0;
+		margin: 0;
+	}
+
+	#calendar-events{
+		margin: 0 auto;
+	}
+
+	#calendar-events tr td{
+		font-size: 0.9em !important;
+		padding: 0;
+	}
+
+	#calendar-events tr td.month{
+		font-size: 1.7em;
+	}
+
+	#watching-on-repeat .content-feed,
+	#follow-us .content-feed{
+		flex-direction: column;
+	}
+
+	#watching-on-repeat .content-feed .content-wrapper,
+	#follow-us .content-feed .content-wrapper{
+		width: 100% !important;
+		margin-bottom: 2em;
+		border-radius: 0;
+		box-shadow: 0 0 0 transparent;
+	}
+
+	#follow-us .social-media-button{
+		background-color: var(--theme-white);
+		padding: 0;
+	}
+
+	#follow-us .social-media-button i.fa{
+		color: var(--theme-blue);
+	}
+
+	footer p{
+		font-size: 0.8em;
+		padding: 0 1em;
+	}
+}
