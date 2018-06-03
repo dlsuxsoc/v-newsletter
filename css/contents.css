@@ -32,6 +32,7 @@
 #talk-to-the-town .content-feed .content-wrapper .title,
 #may-have-missed .content-feed .content-wrapper .title{
 	font-size: 2em;
+    font-family: HUniN;
 }
 
 .content-wrapper .body{
@@ -54,13 +55,14 @@
 
 #calendar-events tr td.month{
 	color: var(--theme-orange);
-	font-family: HUniN;
+	font-family: IUniS;
 	font-size: 3em;
 	border-right: thin solid #ccc;
 	padding: 0 30px;
 }
 
 #calendar-events tr td.event-title{
+    font-family: IUniS;
 	font-size: 1.6em;
 	padding: 0 20px;
 	width: 100%;
@@ -105,7 +107,7 @@
 
 #watching-on-repeat .content-wrapper .featured-image,
 #follow-us .content-wrapper .featured-image{
-	height: 380px;
+	height: 32%;
 	background-color: #ccc;
 }
 
@@ -119,4 +121,10 @@
 	padding: 20px 0;
 	background-color: var(--theme-blue);
 	cursor: pointer;
+}
+
+
+div .featured-image>img{
+    height: 100%;
+    width: 100%;
 }
