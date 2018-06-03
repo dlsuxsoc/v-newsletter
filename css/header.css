@@ -41,8 +41,10 @@ header .social-wrapper i.fa{
 
 /* section titles */
 section h2.section-title{
+    font-family: IUniS;
 	text-align: center;
 	padding: 20px 0;
 	margin-bottom: 50px;
-	font-size: 1.8em;
+	font-size: 2.3em;
+    text-transform: uppercase;
 }
